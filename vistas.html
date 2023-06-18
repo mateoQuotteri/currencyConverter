@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Convertidor de Monedas</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Convertidor de Monedas</h1>
+    <form id="form" class="form-container">
+      <input type="number" id="amount" placeholder="Monto">
+      <select id="from-currency">
+        <option value="USD">ARS</option>
+   
+        <!-- Agrega más opciones de moneda según tus necesidades -->
+      </select>
+      <select id="currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+        <!-- Agrega más opciones de moneda según tus necesidades -->
+      </select>
+      <button type="submit" id="convert-btn">Convertir</button>
+    </form>
+    <div id="result" class="result-container"></div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
