@@ -7,6 +7,9 @@
 <body>
   <div class="container">
     <h1>Convertidor de Monedas</h1>
+    <h4>Fecha: <span id="date"></span></h4>
+    <h4>Hora: <span id="hour"></span></h4>
+
     <form id="form" class="form-container">
       <input type="number" id="amount" placeholder="Monto">
       <select id="from-currency">
@@ -22,7 +25,9 @@
       </select>
       <button type="submit" id="convert-btn">Convertir</button>
     </form>
-    <div id="result" class="result-container"></div>
+    <div id="result" class="result-container">
+      
+    </div>
   </div>
 
   <script src="./script.js"></script>
